@@ -1,0 +1,15 @@
+package Lesson4package;
+
+public class Work13java {
+
+	public static void main(String[] args) {
+		String originBin = "11111111111111111111111111111111";
+//		String str = new String(originBin);
+		// число, которое было в строке
+//		int origin = Integer.parseInt(originBin, 2);
+//		System.out.printf("origin:\t%32s = %d\n", originBin, origin);
+		System.out.println(originBin);
+
+	}
+
+}

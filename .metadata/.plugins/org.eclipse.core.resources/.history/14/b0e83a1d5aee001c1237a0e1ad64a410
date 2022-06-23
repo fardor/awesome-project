@@ -1,0 +1,31 @@
+package Lesson4package;
+
+public class Work13java {
+
+	public static void main(String[] args) {
+		String originBin = "1111111111111111111";
+//		String originBin = "1100000100110110101";
+
+		int origin = Integer.parseInt(originBin, 2);
+		System.out.printf("origin:\t%32s = %d\n", originBin, origin);
+		
+		char[] strToArrey = originBin.toCharArray();
+		
+		for (int i = 0; i < strToArrey.length; i++) {
+			if (strToArrey[i] == '0') {
+				boolean isZero = true;
+			} else {
+				boolean isZero = false;
+			}
+			
+			if (true) {
+				System.out.println("0");
+			} else {
+				System.out.println("1");
+			}
+			
+		}
+
+	}
+
+}

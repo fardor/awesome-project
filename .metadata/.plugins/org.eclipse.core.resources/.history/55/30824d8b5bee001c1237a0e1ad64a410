@@ -1,0 +1,22 @@
+package Lesson4package;
+
+public class Work12 {
+
+	public static void main(String[] args) {
+
+		String str = "11111111111111111111111111111111";
+//		char[] strToArrey = str.toCharArray();
+		
+		int binaryDigit = Integer.parseInt(str, 2);
+		System.out.printf("Число в двоичной системе = %s\nВ десятеричной системе = %d", str, binaryDigit);
+
+
+		System.out.println();
+		
+//		for (int i = 0; i < strToArrey.length; i++) {
+//			System.out.println(strToArrey[i]);
+//		}	
+
+		
+	}
+}

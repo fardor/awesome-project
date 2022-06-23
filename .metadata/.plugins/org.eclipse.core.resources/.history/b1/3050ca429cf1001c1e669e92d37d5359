@@ -1,0 +1,25 @@
+package lesson5Package;
+
+public class W3 {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 15;
+		double extent = 3;
+		
+		for (int i = a; i < b; i++) {
+			int length = String.valueOf(i).length();
+			if (length == 2) {
+				int one = i / 10;
+				int two = i % 10;
+				int sum = one + two;
+				if (Math.pow(one, extent) + Math.pow(two, extent) == i) {
+					System.out.println(i);
+				}
+			}
+		}
+		
+
+	}
+
+}

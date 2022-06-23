@@ -1,0 +1,33 @@
+package lesson5Package;
+
+public class W4 {
+
+	public static void main(String[] args) {
+		int a = 1;
+		int b = 28;
+		
+		// сумма цифр числа
+//		int count = 0;
+//		int sum = 0;
+//		for (int i = b; i > a; i /= 10) {
+//			sum += b % 10;
+//			b /= 10;
+//		}
+//		System.out.printf("сумма цифр числа = %d", sum);
+		
+		// все делители
+		for (int i = 1; b > i; i++) {
+			b /= i;
+			if (b % i != 0) {
+				System.out.println(b);
+			}
+		}
+
+
+
+
+		
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package lesson5Package;
+
+public class W3 {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 1000;
+		double extent = 3;
+		
+		for (int i = a; i < b; i++) {
+			int length = String.valueOf(i).length();
+			if (length == 2) {
+				int one2 = i / 10;
+				int two2 = i % 10;
+				int sum2 = one2 + two2;
+				if (Math.pow(one2, extent) + Math.pow(two2, extent) == i) {
+					System.out.println(i);
+				}
+			}
+			if (length == 3) {
+				int one3 = i / 100;
+				int two3 = i % 100 / 10;
+				int three3 = i % 100 % 10;
+				if (Math.pow(one3, extent) + Math.pow(two3, extent) == i) {
+					System.out.println(i);
+				}
+			}
+		}
+		
+
+	}
+
+}

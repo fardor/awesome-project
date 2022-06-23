@@ -1,0 +1,19 @@
+package lesson5Package;
+
+public class W4 {
+
+	public static void main(String[] args) {
+		int a = 2;
+		int b = 30;
+		
+		for (int i = a; i < b; i++) {
+			int sum = 0;
+			
+			if (b / i == 0) {
+				System.out.println(b);
+			}
+		}
+		
+
+	}
+}

@@ -1,0 +1,25 @@
+package lesson5Package;
+
+public class W2 {
+
+	public static void main(String[] args) {
+		
+		int a = 2;
+		int b = 100;
+		
+		for (int i = a; i < b & i > 1; i++) {
+			for (int j = a; j < b; j++) {
+				if (i % 1 == 0 && i % j == 0) {
+					System.out.println(i);
+				}
+			}
+		}
+		
+		
+//		if (i % 1 == 0 && i % i == 0) {
+//			System.out.println(i);
+//		}
+
+	}
+
+}

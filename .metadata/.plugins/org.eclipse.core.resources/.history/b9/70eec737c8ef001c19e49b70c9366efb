@@ -1,0 +1,29 @@
+package lesson5Package;
+
+import java.util.Iterator;
+
+public class W2 {
+
+	public static void main(String[] args) {
+		
+		int a = 2;
+		int b = 20;
+		int n;
+		
+		for (int i = 2; i < b & i > 1; i++) 
+		{
+			for (int j = 0; j < i; j++) {
+				if (i % j == 0 && i % 1 == 0 && i % i == 0) {
+					System.out.println(i);
+				}
+			}
+		}
+		
+		
+//		if (i % 1 == 0 && i % i == 0) {
+//			System.out.println(i);
+//		}
+
+	}
+
+}

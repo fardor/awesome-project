@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Experiment2 {
+
+	public static void main(String[] args) {
+		int a = 15325;
+		int sum = a / 10000;
+		int sum2 = a % 10000 / 100 / 10;
+		int sum3 = a % 10000 / 100 % 10;
+		int sum4 = a % 10000 % 100 % 10;
+		
+		System.out.println(sum);
+		System.out.println(sum2);
+		System.out.println(sum3);
+//		System.out.println(sum4);
+		
+
+
+
+		
+
+		
+
+	}
+}

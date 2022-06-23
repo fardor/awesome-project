@@ -1,0 +1,38 @@
+package lesson5Package;
+
+import java.util.Iterator;
+
+public class W2 {
+
+	public static void main(String[] args) {
+		
+		int a = 2;
+		int b = 20;
+		boolean n = true;
+		
+		
+		for (int i = a; i < b & i > 1; i++) 
+		{
+			Integer result = i;
+			for (int j = a; j < i; j++) 
+			{
+				if (i % j == 0) 
+				{
+					result = null;
+					break;
+				}
+			}
+			
+			if (result != null) {
+				System.out.println(result);
+			}
+		}
+		
+		
+//		if (i % 1 == 0 && i % i == 0) {
+//			System.out.println(i);
+//		}
+
+	}
+
+}

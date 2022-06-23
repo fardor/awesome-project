@@ -1,0 +1,19 @@
+
+public class Exp2 {
+
+	public static void main(String[] args) {
+		
+		int i = 2340;
+		int one4 = i / 1000;
+		int two4 = i % 1000 / 100;
+		int three4 = i % 1000 / 10 % 10;
+		int four4 = i % 1000 % 100 % 10;
+		
+		int sum = one4 + two4 + three4 + four4;
+		System.out.println(sum);
+		
+		
+
+	}
+
+}

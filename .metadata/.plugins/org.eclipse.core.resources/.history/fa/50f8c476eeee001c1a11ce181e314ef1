@@ -1,0 +1,21 @@
+package lesson5Package;
+
+public class W1 {
+
+	public static void main(String[] args) {
+		
+		int[] fibonacchi = new int[20];
+		fibonacchi[0] = 0;
+		fibonacchi[1] = 1;
+		
+		for (int i = 2; i < fibonacchi.length; i++) {
+			fibonacchi[i] = fibonacchi[i - 1] + fibonacchi[i - 2];
+		}
+		
+		for (int i = 0; i < fibonacchi.length; i++) {
+			System.out.println(fibonacchi[i]);
+		}
+		
+	}
+
+}

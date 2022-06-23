@@ -1,0 +1,13 @@
+package Lesson4package;
+
+public class Work13java {
+
+	public static void main(String[] args) {
+		String originBin = "1100000100110110101";
+
+		int origin = Integer.parseInt(originBin, 2);
+		System.out.printf("origin:\t%32s = %d\n", originBin, origin);
+
+	}
+
+}

@@ -1,0 +1,70 @@
+package Lesson4package;
+
+public class Work12 {
+
+	public static void main(String[] args) {
+
+		String str = "11111111111111111111111111111111";
+		char[] strToArrey = str.toCharArray();
+
+		System.out.println();
+		
+		for (int i = 0; i < strToArrey.length; i++) {
+			if (strToArrey[i] != 1) {
+				boolean isZero = true;
+			} else {
+				boolean isZero = false;
+			}
+		}	
+		
+		if (true) {
+			System.out.println("Данное число имеет хоть один 0");
+		} 
+		
+		if (false) {
+			System.out.println("В данном числе нет нулей");
+		}
+		
+		int binaryDigit = Integer.parseInt(str, 2);
+		
+		System.out.printf("Число в двоичной системе = %s\nВ десятеричной системе = %d", str, binaryDigit);
+	
+		
+			
+			
+	
+		
+		
+//		for (int i = 0; i < strToArrey.length; i++) {
+//			boolean isZero = strToArrey[i] == '1';
+//			if (true) {
+//				System.out.println("Данное число имеет хоть один 0");
+//			} else {
+//				System.out.println("В данном числе нет нулей");
+//			}
+//		}
+	
+		
+//		System.out.println();
+//		
+//		if (isZero) {
+//			System.out.println("Данное число имеет хоть один 0");
+//		} else {
+//			System.out.println("В данном числе нет нулей");
+//		}
+//		
+		
+//		String str2 = "0";
+//		int num = Integer.parseInt(str, 2);
+//
+//		System.out.printf("%3d -> %32s\n", num, Integer.toBinaryString(num));
+//		
+//		if (str.equals(str2)) {
+//			System.out.println("В числе есть ноль");
+//		} else {
+//			System.out.println("Нулей нет");
+//		}
+		
+		
+	}
+}

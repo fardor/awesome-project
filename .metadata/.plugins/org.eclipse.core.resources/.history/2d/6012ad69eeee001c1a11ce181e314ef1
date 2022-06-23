@@ -1,0 +1,19 @@
+package lesson5Package;
+
+public class W1 {
+
+	public static void main(String[] args) {
+		
+		int f1 = 0;
+		int f2 = 1;
+		int f0 = 0;
+		
+		for (int i = 2; i < 20; i++) {
+			f0 = (f1 - 1) + (f2 - 2);
+		}
+		System.out.println(f0);
+		
+		
+	}
+
+}
